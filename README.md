@@ -1,6 +1,11 @@
 # Ipify.NET
 
-**An unofficial client library for `ipify <http://www.ipify.org>`: *A Simple IP Address API*.**
+more .NET version support added
+
+<img width="871" height="440" alt="image" src="https://github.com/user-attachments/assets/e38d2e31-4b87-4661-94ff-ce05356f5adb" />
+
+
+**.NET client library for `ipify <http://www.ipify.org>`: *A Simple IP Address API*.**
 
 ##Meta
 
@@ -37,6 +42,11 @@ class Program
 ##Change Log
 
 All library changes, in descending order.
+
+####Version 2.0.0
+**Release Aug 14, 2025**
+- Ipify.net covered all cases for API calls and converted project to .netstandard 2.0
+- Nuget package release added
 
 ####Version 1.0.0
 
