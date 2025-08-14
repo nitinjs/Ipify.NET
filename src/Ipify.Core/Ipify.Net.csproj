@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Ipify.NET A Simple IP Address API</Description>
+    <PackageProjectUrl>https://github.com/nitinjs/Ipify.NET</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nitinjs/Ipify.NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Ipify.NET A Simple IP Address API</Title>
+  </PropertyGroup>
+
+</Project>

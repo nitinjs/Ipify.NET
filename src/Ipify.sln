@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ipify", "Ipify\Ipify.csproj", "{3A76ED6C-03A7-4432-9187-CFF0CD97D53E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ipify.Tests", "Ipify.Tests\Ipify.Tests.csproj", "{A5A12BA3-3E1D-4B2D-BDCC-930A29836244}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ipify.Net", "Ipify.Core\Ipify.Net.csproj", "{56749004-A10B-C877-9E5E-2508D9B58361}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ipify.Net.Tests", "Ipify.NET.Tests\Ipify.NET.Tests\Ipify.Net.Tests.csproj", "{103ECC5B-9A74-4438-BCF5-196AC0A338B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +25,19 @@ Global
 		{A5A12BA3-3E1D-4B2D-BDCC-930A29836244}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5A12BA3-3E1D-4B2D-BDCC-930A29836244}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5A12BA3-3E1D-4B2D-BDCC-930A29836244}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56749004-A10B-C877-9E5E-2508D9B58361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56749004-A10B-C877-9E5E-2508D9B58361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56749004-A10B-C877-9E5E-2508D9B58361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56749004-A10B-C877-9E5E-2508D9B58361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{103ECC5B-9A74-4438-BCF5-196AC0A338B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{103ECC5B-9A74-4438-BCF5-196AC0A338B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{103ECC5B-9A74-4438-BCF5-196AC0A338B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{103ECC5B-9A74-4438-BCF5-196AC0A338B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7149DDCF-7A6A-419B-9B42-BC0A503758F6}
 	EndGlobalSection
 EndGlobal
